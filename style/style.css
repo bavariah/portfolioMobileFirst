@@ -57,84 +57,82 @@ body .logo img {
   margin-top: 5px;
   transform: translate(-50%);
 }
-@media (max-width: 480px) {
-  .wrapper {
-    width: 90%;
-    margin: auto;
-  }
-  .wrapper .home {
-    background: #2e1f32c9;
-    height: calc(100vh - 101px);
-    display: grid;
-    grid-template: 1fr 20% 25% / 1fr;
-  }
-  .wrapper .home .links {
-    margin: auto 0;
-  }
-  .wrapper .home .links ul {
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
-  }
-  .wrapper .home .links ul a {
-    line-height: 60px;
-    font-size: 2.2rem;
-    color: #fff;
-  }
-  .wrapper .home .photo-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-  }
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+.wrapper .home {
+  background: #2e1f32c9;
+  height: calc(100vh - 101px);
+  display: grid;
+  grid-template: 1fr 20% 25% / 1fr;
+}
+.wrapper .home .links {
+  margin: auto 0;
+}
+.wrapper .home .links ul {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+.wrapper .home .links ul a {
+  line-height: 60px;
+  font-size: 2.2rem;
+  color: #fff;
+}
+.wrapper .home .photo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
 
-  .wrapper .home .photo-info h1 {
-    font-size: 1.8rem;
-    color: #fff;
-  }
-  .wrapper .home .photo-info p {
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 5px 10px;
-    color: #fff;
-  }
-  .wrapper .home .paralex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(../img/nature.jpg) center center/cover scroll;
-  }
-  .wrapper .home .paralex .btn-explore {
-    color: #000000;
-    padding: 15px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: transparent;
-    box-shadow: 0px 0px 15px 0px #fff;
-    border-radius: 20px;
-  }
-  .wrapper .my-Work {
-    height: 100vh;
+.wrapper .home .photo-info h1 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+.wrapper .home .photo-info p {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5px 10px;
+  color: #fff;
+}
+.wrapper .home .paralex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/nature.jpg) center center/cover scroll;
+}
+.wrapper .home .paralex .btn-explore {
+  color: #000000;
+  padding: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+  box-shadow: 0px 0px 15px 0px #fff;
+  border-radius: 20px;
+}
+.wrapper .my-Work {
+  height: 100vh;
 
-    background: url(../img/space-work.jpg) center center/cover scroll;
-  }
-  .wrapper .my-Work .work img {
-    width: 100%;
-    max-width: 100px;
-    max-height: 150px;
-  }
-  .wrapper .hire-Me {
-    height: 100vh;
+  background: url(../img/space-work.jpg) center center/cover scroll;
+}
+.wrapper .my-Work .work img {
+  width: 100%;
+  max-width: 100px;
+  max-height: 150px;
+}
+.wrapper .hire-Me {
+  height: 100vh;
 
-    background: #4e0101;
-  }
-  .wrapper .about-Me {
-    height: 100vh;
+  background: #4e0101;
+}
+.wrapper .about-Me {
+  height: 100vh;
 
-    background: #01324e;
-  }
+  background: #01324e;
 }
 header {
   height: 60px;
