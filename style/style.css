@@ -57,7 +57,7 @@ body .logo img {
   margin-top: 5px;
   transform: translate(-50%);
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .wrapper {
     width: 90%;
     margin: auto;
