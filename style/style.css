@@ -48,6 +48,10 @@ ul {
   background: #d323b0;
 }
 /* main section */
+body .logo {
+  width: 90vw;
+  margin: auto;
+}
 body .logo img {
   width: 100%;
   max-width: 200px;
@@ -83,7 +87,7 @@ body .logo img {
 .wrapper .home .photo-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px solid #fff;
 }
@@ -95,7 +99,7 @@ body .logo img {
 .wrapper .home .photo-info p {
   font-size: 0.9rem;
   text-align: center;
-  padding: 5px 10px;
+  padding: 15px 30px;
   color: #fff;
 }
 .wrapper .home .paralex {
@@ -116,8 +120,17 @@ body .logo img {
 }
 .wrapper .my-Work {
   height: 100vh;
-
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
   background: url(../img/space-work.jpg) center center/cover scroll;
+}
+.wrapper .my-Work .work {
+  padding: 10px;
+  /* border: #fff 1px solid; */
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.158);
 }
 .wrapper .my-Work .work img {
   width: 100%;
@@ -136,6 +149,8 @@ body .logo img {
 }
 header {
   height: 60px;
+  width: 90vw;
+  margin: auto;
 }
 .nav ul {
   display: flex;
