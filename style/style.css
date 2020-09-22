@@ -14,7 +14,7 @@ body {
 }
 a {
   cursor: pointer;
-  color: #333333;
+  color: #0b5acf;
   text-decoration: none;
 }
 ul {
@@ -23,29 +23,25 @@ ul {
 /* ====== scroll ===== */
 /* width */
 ::-webkit-scrollbar {
-  width: 1.2em;
+  width: 0.8em;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 /* background */
 ::-webkit-scrollbar-track-piece {
-  background: #d7f6fa;
-  width: 22px;
+  background: #d37e38b2;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--pink);
-  border-radius: 50px;
-  border: 3px solid #d323b0;
+  border: 1px solid #0b5acf;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #d323b0;
+  background: #0b5acf;
 }
 /* main section */
 body .logo {
@@ -65,8 +61,9 @@ body .logo img {
   width: 90%;
   margin: auto;
 }
+/* ===== HOME ==== */
 .wrapper .home {
-  background: #2e1f32c9;
+  background: #0b5acf;
   height: calc(100vh - 101px);
   display: grid;
   grid-template: 1fr 20% 30% / 1fr;
@@ -105,37 +102,29 @@ body .logo img {
 .wrapper .home .paralex {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: url(../img/nature.jpg) center center/cover scroll;
+  align-items: flex-start;
+  background: url(../img/webb.jpg) center center/cover scroll;
 }
 .wrapper .home .paralex .btn-explore {
   position: relative;
   color: #000000;
-  padding: 15px;
+  padding: 20px;
   font-size: 1.2rem;
+  top: 20%;
   font-weight: bold;
   text-transform: uppercase;
   background: transparent;
   box-shadow: 0px 0px 15px 0px #fff;
-  border-radius: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
 }
-.wrapper .home .paralex button img {
-  position: relative;
-  width: 100%;
-  width: 25px;
-  height: 25px;
-  margin: 0px 7px 0px;
-  top: 5px;
-  animation: spin infinite linear;
+.wrapper .home .paralex .btn-explore:hover {
+  background: rgba(255, 255, 255, 0.521);
 }
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(960deg);
-  }
-}
+/* ===== END HOME ==== */
+/* ===== WROK ==== */
+
 .wrapper .my-Work {
   height: 100vh;
   display: grid;
@@ -155,16 +144,22 @@ body .logo img {
   max-width: 100px;
   max-height: 150px;
 }
+/* ===== END WROK ==== */
+/* ===== HIRE ==== */
+
 .wrapper .hire-Me {
   height: 100vh;
-
   background: #4e0101;
 }
+/* =====  END HIRE ==== */
+/* ===== ABBOUT ==== */
+
 .wrapper .about-Me {
   height: 100vh;
-
   background: #01324e;
 }
+/* ===== ABBOUT ==== */
+
 header {
   height: 60px;
   width: 90vw;
@@ -175,8 +170,12 @@ header {
   justify-content: space-around;
 }
 header ul li a {
-  border-top: 1px solid #333333;
+  border-left: 1px solid #d37e38;
   line-height: 60px;
-  padding: 10px 5px;
+  padding: 5px 10px;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+header ul li a:hover {
+  opacity: 0.9;
 }
