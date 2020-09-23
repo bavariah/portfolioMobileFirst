@@ -91,14 +91,45 @@
           </a>
         </div>
       </div>
-      <div class="hire-Me" id="hireme">Hire Me</div>
-      <div class="about-Me" id="aboutme">About Me</div>
+      <div class="hire-Me" id="hireme" data-scroll>
+        <div class="box light">
+          <ul class="price">
+            <li class="header-li">Light Plan</li>
+            <li class="money">od &euro; 60</li>
+            <li>Static Website ( 1+ page )</li>
+            <li>Optimizacija</li>
+            <li>Održavanje</li>
+          </ul>
+        </div>
+        <div class="box heavy">
+          <ul class="price">
+            <li class="header-hi">Heavy Plan</li>
+            <li class="money">od &euro; 100</li>
+            <li>PRO Website ( 3+ pages )</li>
+            <li>Optimizacija i SEO</li>
+            <li>Održavanje i Unapređenje</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-Me" id="aboutme" data-scroll>
+        <div class="profile">
+          <img src="img/tozaman.jpg" alt="tozaman" />
+          <div class="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga itaque
+            est vitae vero, possimus aperiam!
+          </div>
+        </div>
+        <div class="anime-me">
+          <img src="img/basket-logo.png" alt="basket" />
+        </div>
+        <p>&copy;2020 Marko Todorović</p>
+      </div>
     </section>
     <!-- ==== SCROLL PLUGIN ==== -->
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script>
       ScrollOut({
-        threshold: 0.5,
+        threshold: 0.3,
         once: true,
       });
     </script>
